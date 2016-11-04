@@ -1,0 +1,3 @@
+ISC License
+
+Copyright (c) 2016, Michael Kurowski
