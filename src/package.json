@@ -1,0 +1,15 @@
+{
+  "name": "ion-extender",
+  "version": "1.0.0",
+  "description": "Declarative client <-> server communication lib",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ion",
+    "extender"
+  ],
+  "author": "Michael Kurowski",
+  "license": "ISC"
+}
