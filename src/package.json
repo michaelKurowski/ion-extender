@@ -1,6 +1,6 @@
 {
   "name": "ion-extender",
-  "version": "1.0.0",
+  "version": "1.0.04",
   "description": "Declarative client <-> server communication lib",
   "main": "index.js",
   "scripts": {

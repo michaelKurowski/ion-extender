@@ -1,0 +1,23 @@
+{
+	"created": {
+		"code": 201,
+		"description": "CREATED. The request has been fulfilled, resulting in the creation of a new resource."
+	},
+	"unauthorized": {
+		"code": 401,
+		"description": "UNAUTHORIZED. The request has not been applied because it lacks valid authentication credentials for the target resource."
+	},
+	"paymentRequired": {
+		"code": 402,
+		"description": "PAYMENT REQUIRED. The request has not been applied because it has not been authorized by payment."
+	},
+	"notFound": {
+		"code": 404,
+		"description": "NOT FOUND. The origin server did not find a current representation for the target resource or is not willing to disclose that one exists."
+	},
+	"conflict": {
+		"code": 409,
+		"description": "CONFLICT. The request could not be completed due to a conflict with the current state of the target resource."
+	},
+
+}
