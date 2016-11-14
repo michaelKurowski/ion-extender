@@ -3,6 +3,14 @@
 		"code": 201,
 		"description": "CREATED. The request has been fulfilled, resulting in the creation of a new resource."
 	},
+	"noContent": {
+		"code": 204,
+		"description": "NO CONTENT. The server successfully processed the request and is not returning any content."
+	},
+	"imTeapot": {
+		"code": 418,
+		"description": "I'M A TEAPOT. You're requesting teapot to make coffee. This operation is unsupported."
+	},
 	"unauthorized": {
 		"code": 401,
 		"description": "UNAUTHORIZED. The request has not been applied because it lacks valid authentication credentials for the target resource."
