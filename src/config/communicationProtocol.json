@@ -7,9 +7,9 @@
 		"code": 204,
 		"description": "NO CONTENT. The server successfully processed the request and is not returning any content."
 	},
-	"imTeapot": {
-		"code": 418,
-		"description": "I'M A TEAPOT. You're requesting teapot to make coffee. This operation is unsupported."
+	"badRequest": {
+		"code": 400,
+		"description": "BAD REQUEST. The server cannot or will not process the request due to an apparent client error."
 	},
 	"unauthorized": {
 		"code": 401,
@@ -19,6 +19,10 @@
 		"code": 402,
 		"description": "PAYMENT REQUIRED. The request has not been applied because it has not been authorized by payment."
 	},
+	"forbidden": {
+		"code": 403,
+		"description": "FORBIDDEN. The request was a valid request, but the server is refusing to respond to it. The user might be logged in but does not have the necessary permissions for the resource."
+	},
 	"notFound": {
 		"code": 404,
 		"description": "NOT FOUND. The origin server did not find a current representation for the target resource or is not willing to disclose that one exists."
@@ -26,6 +30,10 @@
 	"conflict": {
 		"code": 409,
 		"description": "CONFLICT. The request could not be completed due to a conflict with the current state of the target resource."
-	}
+	},
+	"imTeapot": {
+		"code": 418,
+		"description": "I'M A TEAPOT. You're requesting teapot to make coffee. This operation is unsupported."
+	},
 
 }
